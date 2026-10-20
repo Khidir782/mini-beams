@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model Weights (Too large for Git)
+models/
+*.bin
+*.pth
+*.safetensors
+*.gguf
+
+# Data (If they become too large, move to a cloud link)
+# data/*.jsonl 
+
+# Secrets and Environment
+.env
+*.log
+.secrets
+secrets.json
+
+# OS / IDE Junk
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Jupyter Notebooks (Keep the scripts, hide the messy notebooks)
+*.ipynb
